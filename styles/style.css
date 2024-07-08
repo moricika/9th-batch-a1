@@ -112,5 +112,72 @@ body{
     font-size: 20px;
     color: rgb(255, 255, 255);
     background-color: black;
-    margin-top: 10px;
+    margin-top: 10px;  
+}
+
+
+/* vennue style */
+
+.vennue span{
+    color: red;
+
+}
+
+.vennue-container{
+    max-width: 1320px;
+    height: 482px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+
+.vennue{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    width: 549px;
+    height: 168px;
+    border: 2px solid red;
+    
+    
+}
+
+.place-btn{
+    margin-top: 40px;
+    padding: 16px 32px 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* best-offer-container style */
+
+.best-offer-container{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    text-align: left;
+    margin: 100px auto;
+}
+
+.fireworks{
+    /* box-sizing: border-box; */
+    /* border-bottom-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 60%; */
+    padding: 35px;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    
 }
