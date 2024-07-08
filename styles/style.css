@@ -1,5 +1,116 @@
-.merriweather-regular {
+body{
     font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
+
   }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+/* Banner styling */
+
+}
+  .banner-container{
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+.new{
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+   
+}
+.cele{
+    font-weight: 900;
+    font-size: 72px;
+    color: white;
+   
+}
+
+/* 2nd */
+.percentage{
+    font-weight: 700;
+    font-family: inter;
+    font-size: 88px;
+    color: rgb(255, 0, 0);
+}
+
+.para{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: inter;
+    color: rgb(255, 0, 0);
+}
+
+.title{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: inter;
+    color: rgb(7, 2, 17);
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px auto;
+}
+
+/* welcome banner */
+
+.welcome-banner{
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    max-width:1320px;
+    height: 600px;
+    margin: 120px 140px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.greetings{
+    font-weight: 900;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+}
+
+.info{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.party{
+    text-align: left;
+    padding: 126px;
+}
+.btn{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+}
