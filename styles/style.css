@@ -181,3 +181,198 @@ body{
     border-radius: 50%;
     
 }
+
+.best-offer{
+    width: 207px;
+    height: 29px;
+    color: rgb(255, 0, 0);
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+.offer-para{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+}
+.year{
+    font-size: 48px;
+    font-weight: 700;
+    color:rgb(255, 0, 0);
+}
+
+.year-para{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+}
+
+.happy{
+    margin-top: 22px;
+}
+
+
+
+/* holiday sale section */
+
+.holiday-sale-container{
+    max-width: 1320px;
+    height: 985px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.function{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.title span{
+    color: rgb(255, 0, 0);
+}
+
+.holiday-para{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holiday-info{
+    padding: 0 126px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.rectangle{
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    top: 77%;
+
+}
+
+.giftbox{
+    /* width: 674.82px;
+    height: 577.96px; */
+    position: relative;
+    top: 15%;
+    /* z-index: 1; */
+    display: flex;
+
+}
+
+.girl-container{
+    width: 674.82px;
+    height: 577.96px;
+    left: 15%;
+    /* margin-left: 200px; */
+    position: relative;
+    
+}
+
+.discount{
+    position: relative;
+    width: 206.84px;
+    height: 206.84px;
+    left: -25%;
+    top: 57.02%;
+}
+
+/* portfoilio-container section */
+
+.portfoilio-container{
+    max-width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.portfolio-gift{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgb(255, 0, 0);
+}
+
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfoilo-para{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* subscribe-container section */
+
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+
+}
+
+.image{
+    margin-top: 60px;
+}
+
+.subscribe-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-para{
+    padding: 15px 50px;
+}
+
+form{
+    margin-top: 48px;
+}
+input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px 0 0 40px;
+    background-color: rgb(255, 255, 255);
+    width: 438px;
+    height: 72px;
+    left: var;
+}
+
+.subscribe{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 40px 40px 0;
+    background-color: red;
+    color: white;
+    width: 210px;
+    height: 72px;
+    
+}
